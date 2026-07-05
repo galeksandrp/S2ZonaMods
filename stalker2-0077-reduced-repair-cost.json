@@ -1,0 +1,39 @@
+{
+    "version": "1.1",
+    "description": "[ZZZZ_Reduced_Repair_Cost_Free_P.pak] Change the Repair Cost of items (80%, 60%, 50%, 40%, 20% or Free)",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/77?tab=files&file_id=484&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig::ReputationRepairCostModifiers::[0]",
+            "values": {
+                "Modifier": 0.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig::ReputationRepairCostModifiers::[1]",
+            "values": {
+                "Modifier": 0.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig::ReputationRepairCostModifiers::[2]",
+            "values": {
+                "Modifier": 0.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig::ReputationRepairCostModifiers::[3]",
+            "values": {
+                "Modifier": 0.0
+            }
+        }
+    ]
+}

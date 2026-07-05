@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "description": "Special weapons now fit in pistol slot. This should be safe as NPC does not use them",
+    "author": "https://www.nexusmods.com/profile/galeksandrp",
+    "actions": [
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Rail_SG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ДРОБ / ТОЗ-34 «Рельс»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "GunAK74_Korshunov_ST::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "Автоматы / ??? АКМ-74С «Коршунова" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "GunAK74_Strelok_ST::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "Автоматы / ??? АКМ-74С «Стрелка»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Decider_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "Автоматы / «Фора-221» «Решала»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "GunSVU_Sniper_Duga_SP::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "Снайперские винтовки / ??? Дуга" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "GunGauss_Scar_SP::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "Снайперские винтовки / Гаусс-пушка ЭМ-1" }
+    ]
+}

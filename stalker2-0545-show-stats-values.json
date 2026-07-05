@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "description": "[ShowItemsValuesAll.pak] This mod changes label system of items and artifacts and makes them numerable ( 0.5 / 1.0 / 1.5 )",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/545?tab=files&file_id=2644&nmm=1",
+    "actions": [
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/ArtifactPrototypes.cfg",
+            "value": {
+                "old": "EEffectDisplayType::EffectLevel",
+                "new": "EEffectDisplayType::Value"
+            }
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/ConsumablePrototypes.cfg",
+            "value": {
+                "old": "EEffectDisplayType::EffectLevel",
+                "new": "EEffectDisplayType::Value"
+            }
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/QuestItemPrototypes.cfg",
+            "value": {
+                "old": "EEffectDisplayType::EffectLevel",
+                "new": "EEffectDisplayType::Value"
+            }
+        }
+    ]
+}

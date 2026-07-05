@@ -1,0 +1,12 @@
+{
+    "version": "0.1",
+    "description": "[zz_no_backpack_animation.pak] Faster backpack without animation",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/84?tab=files&file_id=270&nmm=1",
+    "actions": [
+        {
+            "type": "RemoveLine",
+            "file": "Stalker2/Content/GameLite/GameData/BackpackPrototypes.cfg",
+            "path": "Backpack_Default::AnimationPath"
+        }
+    ]
+}

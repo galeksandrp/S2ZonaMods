@@ -1,0 +1,15 @@
+{
+    "version": "1.1.0",
+    "description": "[Bode's Unlimited Saves_P.pak] Increases the number of manual saves allowed per campaign from 31 to 10,000. No more deleting all of your hard work!",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/255?tab=files&file_id=2915&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/SaveLoadVariables.cfg",
+            "path": "DefaultConfig::SavesLimit",
+            "values": {
+                "Manual": 1000
+            }
+        }
+    ]
+}

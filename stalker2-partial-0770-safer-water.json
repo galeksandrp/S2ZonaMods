@@ -1,0 +1,39 @@
+{
+    "version": "0.1.0",
+    "description": "test",
+    "author": "https://www.nexusmods.com/profile/galeksandrp",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/EffectPrototypes.cfg",
+            "path": "WaterMovementVelocityChange",
+            "values": {
+                "Type": "EEffectType::None"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/EffectPrototypes.cfg",
+            "path": "WaterTurnRateChangePitch",
+            "values": {
+                "Type": "EEffectType::None"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/EffectPrototypes.cfg",
+            "path": "WaterTurnRateChangeYaw",
+            "values": {
+                "Type": "EEffectType::None"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/EffectPrototypes.cfg",
+            "path": "WaterDeadlyDamage",
+            "values": {
+                "Type": "EEffectType::None"
+            }
+        }
+    ]
+}

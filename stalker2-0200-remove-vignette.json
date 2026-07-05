@@ -1,0 +1,15 @@
+{
+    "version": "1.0",
+    "description": "[z_RemoveVignette_P.pak] Simply removes the vignette effect while you crouch/sneak.",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/200?tab=files&file_id=791&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/PostProcessParamPrototypes.cfg",
+            "path": "Crouch",
+            "values": {
+                "MaterialSID": "Empty"
+            }
+        }
+    ]
+}

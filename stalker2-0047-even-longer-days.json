@@ -1,0 +1,15 @@
+{
+    "version": "v0.1",
+    "description": "[even_longer_days_24h.pak] Even Longer days, based on \"Longer Days\" with a few options for day/night cycle length. 2, 4, 8, 12, 16, 24x presets included",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/47?tab=files&file_id=113&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig",
+            "values": {
+                "RealToGameTimeCoef": 1
+            }
+        }
+    ]
+}

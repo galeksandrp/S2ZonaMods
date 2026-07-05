@@ -1,0 +1,74 @@
+{
+    "version": "0.2",
+    "description": "[z_CarryWeight9999.pak] Lets you choose your carry weight",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/53?tab=files&file_id=455&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig",
+            "values": {
+                "InventoryPenaltyLessWeight": 9995.0,
+                "MediumEffectStartUI": 9997,
+                "CriticalEffectStartUI": 9998
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjEffectMaxParamsPrototypes.cfg",
+            "path": "DefaultEffectMaxParamsSID::MaxEffectValues::[1]",
+            "values": {
+                "MaxValue": 9999
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjEffectMaxParamsPrototypes.cfg",
+            "path": "DefaultEffectMaxParamsSID::MaxEffectValues::[9]",
+            "values": {
+                "MaxValue": 9999
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjWeightParamsPrototypes.cfg",
+            "path": "DefaultWeightParams",
+            "values": {
+                "MaxInventoryMass": 9999,
+                "InventoryPenaltyLessWeight": 9994.99
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjWeightParamsPrototypes.cfg",
+            "path": "DefaultWeightParams::WeightEffectParams::[0]",
+            "values": {
+                "Threshold": "9998.f"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjWeightParamsPrototypes.cfg",
+            "path": "DefaultWeightParams::WeightEffectParams::[1]",
+            "values": {
+                "Threshold": "9997.f"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjWeightParamsPrototypes.cfg",
+            "path": "DefaultWeightParams::WeightEffectParams::[2]",
+            "values": {
+                "Threshold": "9996.f"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjWeightParamsPrototypes.cfg",
+            "path": "DefaultWeightParams::WeightEffectParams::[3]",
+            "values": {
+                "Threshold": "9995.f"
+            }
+        }
+    ]
+}

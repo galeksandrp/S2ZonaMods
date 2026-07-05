@@ -1,0 +1,23 @@
+{
+    "version": "0.2",
+    "description": "[zz_IncreasedMeleeRange_P.pak] Simply increases the melee range.",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/98?tab=files&file_id=359&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MeleeWeaponPrototypes.cfg",
+            "path": "Knife",
+            "values": {
+                "HitDetectionDistance": "170.f"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MeleeWeaponPrototypes.cfg",
+            "path": "WeaponButt",
+            "values": {
+                "HitDetectionDistance": "170.f"
+            }
+        }
+    ]
+}

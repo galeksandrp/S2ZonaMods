@@ -1,0 +1,69 @@
+{
+    "version": "0.0.0-1.03",
+    "description": "[Map Locations Shown Not Discovered.pak] Mod that shows all icons on the map from the start of the game as question marks. Once the arch anomalies are discovered they will stay on the map as well. Thank you for the new mod ideas.",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/765?tab=files&file_id=4134&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MarkerPrototypes.cfg",
+            "path": "[0]",
+            "values": {
+                "MarkerRevealDistance": 816000.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MarkerPrototypes.cfg",
+            "path": "PoppyFieldArchAnomaly",
+            "values": {
+                "MarkerRevealDistance": 816000.0,
+                "MarkerExploreDistance": 816000.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MarkerPrototypes.cfg",
+            "path": "BulbArchAnomaly",
+            "values": {
+                "MarkerRevealDistance": 816000.0,
+                "MarkerExploreDistance": 816000.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MarkerPrototypes.cfg",
+            "path": "MistArchAnomaly",
+            "values": {
+                "MarkerRevealDistance": 816000.0,
+                "MarkerExploreDistance": 816000.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MarkerPrototypes.cfg",
+            "path": "TornadoArchAnomaly",
+            "values": {
+                "MarkerRevealDistance": 816000.0,
+                "MarkerExploreDistance": 816000.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MarkerPrototypes.cfg",
+            "path": "WinderingArchAnomaly",
+            "values": {
+                "MarkerRevealDistance": 816000.0,
+                "MarkerExploreDistance": 816000.0
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/MarkerPrototypes.cfg",
+            "path": "FireWhirlArchAnomaly",
+            "values": {
+                "MarkerRevealDistance": 816000.0,
+                "MarkerExploreDistance": 816000.0
+            }
+        }
+    ]
+}

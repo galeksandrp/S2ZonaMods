@@ -1,0 +1,30 @@
+{
+    "version": "1.0.3",
+    "description": "[zzzz_NoFallDamage_P.pak] Reduces or completely eliminates fall damage.",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/377?tab=files&file_id=4107&nmm=1",
+    "actions": [
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/ObjPrototypes.cfg",
+            "path": "[0]::IgnoreWoundedRestriction",
+            "value": false
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjPrototypes.cfg",
+            "path": "[0]::MovementParams",
+            "values": {
+                "MaxSlowdownValue": 0.25,
+                "StaggerAngle": 180
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ObjPrototypes.cfg",
+            "path": "[0]::Protection",
+            "values": {
+                "Fall": 100.0
+            }
+        }
+    ]
+}

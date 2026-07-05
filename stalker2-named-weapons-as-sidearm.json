@@ -1,0 +1,49 @@
+{
+    "version": "0.1.0",
+    "description": "Named weapons now fit in pistol slot. This should be safe as NPC does not use them",
+    "author": "https://www.nexusmods.com/profile/galeksandrp",
+    "actions": [
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Predator_SG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ДРОБ / M860 Cracker «Хищник»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Sledgehammer_SG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ДРОБ / SPSA-14 «Кувалда»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Texas_SG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ДРОБ / Ram-2 «Техасец»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Deluxe/ItemPrototypes/DeluxeWeaponPrototypes.cfg", "path": "Gun_ShotgunMonolith_SG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ДРОБ / M860 Cracker M860 «Монолит»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Ultimate/ItemPrototypes/UltimateWeaponPrototypes.cfg", "path": "Gun_Margach_SG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ДРОБ / Сайга Д-12 «Маргач Д-12МТ»" },
+
+
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_GStreet_HG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ППМ / M10 Gordon «Гангстер»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_RatKiller_SMG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ППМ / «Зубр-19» «Крысобой»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Shakh_SMG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ППМ / Viper-5 «Шах и мат»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Spitter_SMG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ППМ / «Букет С-2» «Плевалка»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Deluxe/ItemPrototypes/DeluxeWeaponPrototypes.cfg", "path": "Gun_Logarithm_SMG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ППМ / Integral-A «Риман»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Ultimate/ItemPrototypes/UltimateWeaponPrototypes.cfg", "path": "Gun_SMGMonolith_SMG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ППМ / Viper-5 Viper «Монолит»" },
+
+
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Sharpshooter_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / AR416 «Попадос»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Combatant_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / АКМ-74С «Комбатант»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Drowned_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / АКМ-74С «Утопленник»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_S15_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / «Гром-С14» Гром С-15" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Partner_SR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / Mark I EMR «Напарник»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_SOFMOD_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / AR416 SOFMOD" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Sotnyk_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / «Днипро» «Сотник»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Silence_SMG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / АКМ-74У АКМ-74/2У «Спецназ»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Spitfire_SMG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / АКМ-74У «Скорострел»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Trophy_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / СА «Лавина» «Трофей»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Unknown_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / AR416 AR416 «Неизвестного сталкера»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Lummox_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / АКМ-74С АКМ-74С «Гриши Валенка»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Deluxe/ItemPrototypes/DeluxeWeaponPrototypes.cfg", "path": "Gun_RifleMonolith_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / AR416 AR416 «Монолит»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Deluxe/ItemPrototypes/DeluxeWeaponPrototypes.cfg", "path": "Gun_Gabion_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / СА «Лавина» А-У «Габион»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Ultimate/ItemPrototypes/UltimateWeaponPrototypes.cfg", "path": "Gun_Novator_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "АВ / «Фора-221» «Колыбельная»" },
+
+
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Cavalier_SR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "СВ / M701 Super «Кавалерист»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Lynx_SR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "СВ / СВДМ-2 «Рысь»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Merc_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "СВ / СВ «Винтарь» «Наемник»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Whip_SR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "СВ / СВУ-МК С-3 «Плетка»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/PreOrder/ItemPrototypes/PreorderWeaponPrototypes.cfg", "path": "Gun_Veteran_AR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "СВ / СВ «Винтарь» «Ветеран»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/DLCGameData/Deluxe/ItemPrototypes/DeluxeWeaponPrototypes.cfg", "path": "Gun_Zvirolov_SR::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "СВ / M701 Super «Зверолов»" },
+
+
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "GunPKP_Korshunov_MG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ПМ / РПМ-74 «Зверь»" },
+        {"type": "Add", "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg", "path": "Gun_Tank_MG::ItemSlotType", "value": "EInventoryEquipmentSlot::Pistol", "comment": "ПМ / РПМ-74 ПКМ «Обжора»"}
+    ]
+}

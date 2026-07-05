@@ -1,0 +1,17 @@
+{
+    "version": "v.1.2",
+    "description": "[zz_reasonable_degradation.pak] Reasonable Degradation of Weapons found in the zone.",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/33?tab=files&file_id=130&nmm=1",
+    "actions": [
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/WeaponData/CharacterWeaponSettingsPrototypes/PlayerWeaponSettingsPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "DurabilityDamagePerShot\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "DurabilityDamagePerShot = 0.0"
+            },
+            "isRegex": true
+        }
+    ]
+}

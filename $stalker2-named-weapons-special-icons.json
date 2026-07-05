@@ -1,0 +1,58 @@
+{
+    "version": "0.1.0",
+    "description": "Some named weapons in game does not have special icons. Use custom icons for them",
+    "author": "https://www.nexusmods.com/profile/galeksandrp",
+    "actions": [
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "Gun_GStreet_HG::Icon",
+            "value": "Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/Inventory/WeaponAndAttachments/UtilsM10/T_inv_w_m10_utils_gstreet_body.T_inv_w_m10_body'",
+            "comment": "ППМ / M10 Gordon «Гангстер»"
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "Gun_Sharpshooter_AR",
+            "values": {
+                "Icon": "Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/Inventory/WeaponAndAttachments/UtilsM16/T_inv_w_m16_utils_sharpshooter_body.T_inv_w_m16_body'"
+            },
+            "comment": "АВ / AR416 «Попадос»"
+        },
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "Gun_SOFMOD_AR::Icon",
+            "value": "Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/Inventory/WeaponAndAttachments/UtilsM16/T_inv_w_m16_utils_sofmod_body.T_inv_w_m16_body'",
+            "comment": "АВ / AR416 SOFMOD"
+        },
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "Gun_Unknown_AR::Icon",
+            "value": "Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/Inventory/WeaponAndAttachments/UtilsM16/T_inv_w_m16_utils_unknown_body.T_inv_w_m16_body'",
+            "comment": "АВ / AR416 AR416 «Неизвестного сталкера»"
+        },
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "Gun_Lummox_AR::Icon",
+            "value": "Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/Inventory/WeaponAndAttachments/UtilsAK74/T_inv_w_ak74_utils_lummox_body.T_inv_w_ak74_body'",
+            "comment": "АВ / АКМ-74С АКМ-74С «Гриши Валенка»"
+        },
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "Gun_Cavalier_SR::Icon",
+            "value": "Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/Inventory/WeaponAndAttachments/UtilsM701/T_inv_w_m701_utils_cavalier_body.T_inv_w_m701_body'",
+            "comment": "СВ / M701 Super «Кавалерист»"
+        },
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "GunPKP_Korshunov_MG::Icon",
+            "value": "Texture2D'/Game/GameLite/FPS_Game/UIRemaster/UITextures/Inventory/WeaponAndAttachments/UtilsPKP/T_inv_w_pkp_utils_korshunov_body.T_inv_w_pkp_body'",
+            "comment": "ПМ / РПМ-74 «Зверь»"
+        }
+    ]
+}

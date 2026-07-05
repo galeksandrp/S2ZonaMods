@@ -1,0 +1,47 @@
+{
+    "version": "1.2",
+    "description": "[Any Sideweapon for 1.0.1.pak] You never use your pistol because you reached the middle game and have no use for it anymore ? Expand your gearing choices by replacing it with a SMG or a boomstick !",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/310?tab=files&file_id=2545&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "TemplateSMG",
+            "values": {
+                "ItemSlotType": "EInventoryEquipmentSlot::Pistol"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "TemplateRifle",
+            "values": {
+                "ItemSlotType": "EInventoryEquipmentSlot::Pistol"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "TemplateMG",
+            "values": {
+                "ItemSlotType": "EInventoryEquipmentSlot::Pistol"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "TemplateShotgun",
+            "values": {
+                "ItemSlotType": "EInventoryEquipmentSlot::Pistol"
+            }
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "TemplateSniper",
+            "values": {
+                "ItemSlotType": "EInventoryEquipmentSlot::Pistol"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "description": "Always full price for any durability on sell (maybe on buy as well)",
+    "author": "https://www.nexusmods.com/profile/galeksandrp",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig",
+            "values": {
+                "ItemCostMinPercent": 1.00
+            }
+        }
+    ]
+}

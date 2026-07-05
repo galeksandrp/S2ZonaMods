@@ -1,0 +1,167 @@
+{
+    "version": "0.1",
+    "description": "[Ikons_1x1_*.pak] Reduces the size of items in the inventory slot",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/1750?tab=files&file_id=12042&nmm=1",
+    "actions": [
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/AmmoPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/AmmoPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/ArmorPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/ArmorPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/AttachPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/AttachPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/ConsumablePrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/ConsumablePrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/DetectorPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/DetectorPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/GDItemPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/GDItemPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/QuestItemPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/QuestItemPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridWidth\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridWidth = 1"
+            },
+            "isRegex": true
+        },
+        {
+            "type": "Replace",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/WeaponPrototypes.cfg",
+            "path": "",
+            "value": {
+                "old": "ItemGridHeight\\s*=\\s*[0-9]*\\.?[0-9]+",
+                "new": "ItemGridHeight = 1"
+            },
+            "isRegex": true
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "version": "1.2",
+    "description": "[NoDialogueZoom100.pak] Removes the zoom-in effect during dialogue",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/71?tab=files&file_id=731&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/CoreVariables.cfg",
+            "path": "DefaultConfig",
+            "values": {
+                "DialogFOVDefault": 100.0
+            }
+        }
+    ]
+}

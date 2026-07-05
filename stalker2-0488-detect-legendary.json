@@ -1,0 +1,18 @@
+{
+    "version": "1",
+    "description": "[z_Detect_Arch.pak] This mod, allows your detector to detect legendary artifacts (weird ball, weird pot etc)",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/488?tab=files&file_id=2272&nmm=1",
+    "actions": [
+        {
+            "type": "RemoveStruct",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/DetectorPrototypes.cfg",
+            "path": "TemplateDetector::ExclusionArtifactList"
+        },
+        {
+            "type": "AddStruct",
+            "file": "Stalker2/Content/GameLite/GameData/ItemPrototypes/DetectorPrototypes.cfg",
+            "path": "TemplateDetector::ExclusionArtifactList",
+            "value": {}
+        }
+    ]
+}
